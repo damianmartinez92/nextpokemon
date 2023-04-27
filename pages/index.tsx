@@ -1,7 +1,12 @@
-export default function Home() {
+import { NextPage } from "next";
+import { Layout } from "@/components/layout";
+
+const HomePage: NextPage = () => {
   return (
-    <>
-      <h1>Hola Mundo!</h1>{" "}
-    </>
+    <Layout title="Listado de Pokemons">
+      <h1>Hola Mundo!</h1>
+    </Layout>
   );
-}
+};
+
+export default HomePage;
