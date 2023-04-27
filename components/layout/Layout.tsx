@@ -19,7 +19,7 @@ export const Layout = ({ children, title }: DashboardLayoutProps) => {
         <meta name="keywords" content={`pokemon, pokedex, pikachu, ${title}`} />
       </Head>
       <Navbar />
-      <main>{children}</main>
+      <main style={{ padding: "0px 20px" }}>{children}</main>
     </>
   );
 };
